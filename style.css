@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 body {
   background-image: linear-gradient(to top, #d16ba5, #b194e8);
   background-repeat: no-repeat;
@@ -14,11 +15,12 @@ body {
   border-radius: 0.5rem;
 }
 .cell_class {
+  font-family: "Poppins", sans-serif;
   margin: 2px;
   display: inline-block;
   width: 9.4%;
   aspect-ratio: 1/1;
-  background-color: rgb(255, 255, 255);
+  background-color: transparent;
   border: 1.2px solid rgb(112, 28, 190);
   border-radius: 10px;
 }
@@ -35,6 +37,10 @@ body {
   background-color: yellow;
 }
 #button {
-  margin: 4px;
+  display: inline;
+  margin: 0.4rem;
   background-color: #d16ba5;
+}
+#demo {
+  display: inline;
 }

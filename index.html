@@ -9,16 +9,16 @@
   </head>
   <body>
     <div id="container">
+      <div id="bingotable"></div>
       <center>
         <button
           id="button"
-          onclick="reload()
-        "
+          onclick="document.getElementById('demo').innerHTML = getRndInteger(1,76)"
         >
-          Click me!
+          Random number:
         </button>
+        <p id="demo"></p>
       </center>
-      <div id="bingotable"></div>
     </div>
     <script src="./script.js"></script>
   </body>
