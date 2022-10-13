@@ -1,0 +1,40 @@
+body {
+  background-image: linear-gradient(to top, #d16ba5, #b194e8);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+#container {
+  max-width: 1140px;
+  margin-inline: auto; /* left and right */
+  margin-block: 0.5rem; /* top and bottom */
+  position: relative;
+  border: 2px solid transparent;
+  background-color: transparent;
+  border-radius: 0.5rem;
+}
+.cell_class {
+  margin: 2px;
+  display: inline-block;
+  width: 9.4%;
+  aspect-ratio: 1/1;
+  background-color: rgb(255, 255, 255);
+  border: 1.2px solid rgb(112, 28, 190);
+  border-radius: 10px;
+}
+.cell_class h3 {
+  text-align: center;
+  margin: 0;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 26px;
+  font-weight: 300;
+}
+.duplicate {
+  background-color: yellow;
+}
+#button {
+  margin: 4px;
+  background-color: #d16ba5;
+}
