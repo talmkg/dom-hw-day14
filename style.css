@@ -44,3 +44,6 @@ body {
 #demo {
   display: inline;
 }
+.cell_class:hover {
+  transform: scale(1.03);
+}

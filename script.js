@@ -1,4 +1,3 @@
-const allcells = 76;
 const createCells = function () {
   const bingotable = document.getElementById("bingotable");
 
@@ -16,11 +15,13 @@ const createCells = function () {
 };
 window.onload = function () {
   createCells(76);
-  showRandomInt();
 };
 
-function getRndInteger(min, max) {
-  return Math.floor(Math.random() * (max - min + 1)) + min;
+function getRndInteger() {
+  return Math.floor(Math.random() * 76);
 }
-if ((getRndInteger = bingoCellNode)) {
+if (getRndInteger() == bingoCellNode) {
+  for (let bingoCellNodes of bingoCellNode) {
+    bingoCellNodes.style.color = "white";
+  }
 }
