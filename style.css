@@ -20,7 +20,6 @@ body {
   display: inline-block;
   width: 9.4%;
   aspect-ratio: 1/1;
-  background-color: transparent;
   border: 1.2px solid rgb(112, 28, 190);
   border-radius: 10px;
 }
